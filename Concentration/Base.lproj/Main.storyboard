@@ -27,8 +27,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66U-pL-96P">
-                                <rect key="frame" x="172.5" y="224" width="30" height="218"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66U-pL-96P">
+                                <rect key="frame" x="173" y="224" width="30" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="218" id="kMC-rA-kdT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="A-Goblin-Appears!" family="A Goblin Appears!" pointSize="20"/>
                                 <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -188,13 +191,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUB-CE-qxf">
-                                <rect key="frame" x="80.5" y="620" width="214" height="17"/>
+                                <rect key="frame" x="81" y="620" width="214" height="17"/>
                                 <fontDescription key="fontDescription" name="A-Goblin-Appears!" family="A Goblin Appears!" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlx-EI-W38">
-                                <rect key="frame" x="16" y="25" width="69" height="27"/>
+                                <rect key="frame" x="16" y="20" width="69" height="27"/>
                                 <fontDescription key="fontDescription" name="A-Goblin-Appears!" family="A Goblin Appears!" pointSize="15"/>
                                 <state key="normal" title="Home">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -211,10 +214,9 @@
                             <constraint firstItem="IUB-CE-qxf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AxE-10-014"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IUB-CE-qxf" secondAttribute="bottom" constant="30" id="K5w-wW-zzK"/>
                             <constraint firstItem="66U-pL-96P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V7c-6k-0yN"/>
-                            <constraint firstItem="jlx-EI-W38" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="W3b-rK-pyk"/>
                             <constraint firstItem="9es-5s-0fF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fs2-z8-Rd0"/>
                             <constraint firstItem="jlx-EI-W38" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="q95-oR-fL3"/>
-                            <constraint firstItem="jlx-EI-W38" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="v0C-oo-jtz"/>
+                            <constraint firstItem="66U-pL-96P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zD5-Tv-coO"/>
                         </constraints>
                     </view>
                     <connections>
@@ -281,10 +283,8 @@
                         <color key="backgroundColor" red="0.8725581765" green="0.37732711429999999" blue="0.35693135860000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Npq-Lg-KdT" firstAttribute="centerX" secondItem="Exx-67-ecz" secondAttribute="centerX" id="6yj-Vl-tuI"/>
-                            <constraint firstItem="uMH-UI-yN7" firstAttribute="top" secondItem="Npq-Lg-KdT" secondAttribute="bottom" constant="8" id="FXt-fC-nmZ"/>
                             <constraint firstItem="dKJ-qm-d0s" firstAttribute="top" secondItem="uMH-UI-yN7" secondAttribute="bottom" constant="90" id="JdI-BP-BQI"/>
                             <constraint firstItem="dKJ-qm-d0s" firstAttribute="centerX" secondItem="Exx-67-ecz" secondAttribute="centerX" id="ego-cE-5yP"/>
-                            <constraint firstItem="Npq-Lg-KdT" firstAttribute="top" secondItem="kB3-kp-rt2" secondAttribute="bottom" constant="195" id="g2H-GZ-4je"/>
                             <constraint firstItem="eDn-SV-qws" firstAttribute="top" secondItem="dKJ-qm-d0s" secondAttribute="bottom" constant="285" id="s6U-zC-lch"/>
                             <constraint firstItem="uMH-UI-yN7" firstAttribute="top" secondItem="Npq-Lg-KdT" secondAttribute="bottom" constant="15" id="ucA-4u-co6"/>
                             <constraint firstItem="uMH-UI-yN7" firstAttribute="centerX" secondItem="Exx-67-ecz" secondAttribute="centerX" id="xQd-g0-yfF"/>
