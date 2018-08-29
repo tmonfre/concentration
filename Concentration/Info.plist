@@ -22,9 +22,8 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>eight-bit-wonder.ttf</string>
-		<string>A Goblin Appears!.otf</string>
-		<string>8-BIT WONDER.ttf</string>
+		<string>SF Compact</string>
+		<string>SF Pro</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
